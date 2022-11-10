@@ -4,8 +4,7 @@ node{
   
             echo "-=- compiling project -=-"
             checkout scm 
-            bat "mvn clean compile"
-             
+            sh 'mvn clean compile'
          
         
     }
