@@ -4,7 +4,7 @@ node{
   
             echo "-=- compiling project -=-"
             checkout scm 
-            mvn '-Dmaven.test.failure.ignore=true install' 
+            bat "mvn clean compile"
              
          
         
