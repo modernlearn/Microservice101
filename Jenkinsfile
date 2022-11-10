@@ -3,6 +3,8 @@ node{
     stage('Compile') {
   
             echo "-=- compiling project -=-"
+            checkout scm 
+             
          
         
     }
