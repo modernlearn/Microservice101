@@ -4,6 +4,7 @@ node{
   
             echo "-=- compiling project -=-"
             checkout scm 
+            sh 'mvn package'
              
          
         
